@@ -4,7 +4,7 @@
 
 
 *{
-    margin:0px;
+    margin:0;
     padding:0;
 }
 
@@ -16,9 +16,18 @@ html{
     line-height:1.8;
 }
 
+body{
+    background-color: #cccccc;
+}
+
+.wrapper{
+    background-color: white;
+    margin:0 65px 0 60px;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Karla', sans-serif;
-    font-style:normal;
+    font-style: normal;
     color:#4e4b4b;
     line-height:1.4;
 }
@@ -44,7 +53,7 @@ a{
     font-size:14px;
     color: #ca404f;
     line-height:1.4;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 button{
