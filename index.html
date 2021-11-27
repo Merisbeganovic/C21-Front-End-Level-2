@@ -4,18 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript</title>
-    <script src="de-link-naar-je-js-file" defer></script>
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/a64d859405.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-        <h1 class="number-1">Hello</h1>
-    <h1 id="number-2">goodbye</h1>
-        <p class="number-3">hello</p>
-    <p id="number-4">goodbye</p>
-        <button class="button-number-1" onclick="document.querySelector('.number-1').innerHTML= 'hier stond tekst';">Eerste "hello"</button>
-    <button class="button-number-2" onclick="getElementById('number-2').innerHTML= 'hier stond tekst';">Eerste "goodbye"</button>
-        <button class="button-number-3" onclick="document.querySelector('.number-3').innerHTML= 'hier stond tekst';">Laatste "hello"</button>
-    <button class="button-number-4" onclick="getElementById('number-4').innerHTML= 'hier stond tekst';">laatste "goodbye"</button>
-       <button class="final-button" onclick="document.querySelector('body').innerHTML= 'alles weg';">alles</button>
+    <div class="wrapper">
+        <header>
+            <div class="logo"><img src="images/logo.svg"></div>
+            <nav>
+                <ul class="main-menu">
+                    <li class="menu-item"><a href="#">recipes</a></li>
+                    <li class="menu-item"><a href="#">recipes</a></li>
+                    <li class="menu-item"><a href="#">recipes</a></li>
+                    <li class="menu-item"><a href="#">recipes</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="socials">
+                    <li class="social-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social-item"><a href="#"><i class="fab fa-instagram"></i></a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="recepten">
+                <div class="recept">
+                    <div class="description">
+                        <h2>Asperagus Season: Fresh from the field to the table</h2>
+                        <h4>oktober 2021</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur provident iusto error aliquid hic labore voluptatibus nemo natus deleniti quo atque officia fugit minus, asperiores eveniet, autem earum beatae soluta!</p>
+                        <button>read more</button>
+                    </div>
+                    <div class="recept-image">
+                        <img src="images/aspergers.png">
+                    </div>
+                </div>
+                <div class="recept-items">
+                    <div class="item">
+                        <div class="item-text">
+                            <h3>Roasted Tomato Asparagus Quiche with Cheddar</h3>
+                            <a href="#">Vegetables</a>
+                        </div>
+                        <img src="images/item-1.png">
+                    </div>
+                    <div class="item">
+                        <div class="item-text">
+                            <h3>Linguine with Green Asparagus Prosciutto and Burrata</h3>
+                            <a href="#">Pasta & Noodles</a>
+                        </div>
+                        <img src="images/item-2.png">
+                    </div>
+                    <div class="item">
+                        <div class="item-text">
+                            <h3>Cheesy Asparagus Pesto Pasta</h3>
+                            <a href="#">Pasta & Noodles</a>
+                        </div>
+                        <img src="images/item-3.png">
+                    </div>
+                    <div class="item">
+                        <div class="item-text">
+                            <h3>Bacon Wrapped Asparagus with Honey Balsamic Glaze</h3>
+                            <a href="#">Vegetables</a>
+                        </div>
+                        <img src="images/item-4.png">
+                    </div>
+                    <div class="item">
+                        <div class="item-text">
+                            <h3>Asparagus Soup with Lemon and Parmesan</h3>
+                            <a href="#">Vegetables</a>
+                        </div>
+                        <img src="images/item-5.png">
+                    </div>
+                </div>
+            </div>
+        </main>
+     </div>    
 </body>
 </html>
